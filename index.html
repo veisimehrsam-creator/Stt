@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه ربات</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma, sans-serif;
+            background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            margin-top: 50px;
+            background: #808080; /* خاکستری */
+            color: white;
+            padding: 20px 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3), 0 0 30px rgba(0,0,0,0.1) inset;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 1s forwards;
+        }
+
+        .box h1 {
+            font-size: 18px; /* متن کوچکتر */
+            margin: 0;
+            text-align: center;
+        }
+
+        .box2 {
+            margin-top: 30px;
+            background: #808080; /* خاکستری */
+            color: white;
+            padding: 30px 50px; /* اندازه باکس با متن تنظیم شده */
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3), 0 0 30px rgba(0,0,0,0.1) inset;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+            animation-delay: 1.2s;
+        }
+
+        .box2 p {
+            font-size: 20px; /* متن بزرگتر */
+            margin: 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>سلام من پشتیبانی استیل هستم<br>اینجا ربات‌های تلگرامی می‌سازیم</h1>
+    </div>
+
+    <div class="box2">
+        <p>ربات‌های تلگرامی مون<br>
+        پشتیبانی و کانال: <a href="https://t.me/stealstudio" target="_blank">https://t.me/stealstudio</a><br>
+        @Dalgak985bot - مدیریت گروه<br>
+        ربات‌ها ۱ بعد از ظهر تا ۳ بعد از ظهر فعال هستن
+        </p>
+    </div>
+</body>
+</html>
